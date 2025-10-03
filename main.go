@@ -141,7 +141,7 @@ func receiveData(c *gin.Context) {
 
 func main() {
 	// Connect to database
-	connectDB()
+	// connectDB()
 
 	// Create Gin router
 	r := gin.Default()
